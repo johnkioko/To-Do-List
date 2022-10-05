@@ -1,0 +1,71 @@
+body {
+  background: #d3d3d3;
+}
+
+.wrapper {
+  margin: auto;
+  margin-top: 5%;
+  width: 60%;
+  border: 0.5px solid gray;
+  box-shadow: 5px 5px 5px grey;
+  background-color: #fff;
+}
+
+.wrapper > div {
+  border-bottom: grey solid 1px;
+  padding: 1rem 0;
+}
+
+.border {
+  border-bottom: grey solid 1px;
+  padding: 1rem 0;
+}
+
+.border:last-child {
+  border-bottom: none;
+}
+
+button {
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+}
+
+.list-items,
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex > * {
+  padding: 1rem;
+}
+
+.start {
+  justify-content: flex-start;
+  padding: 1rem;
+}
+
+.list-items p {
+  margin-left: -70%;
+}
+
+@media screen and (max-width: 600px) {
+  .list-items p {
+    margin-left: -50%;
+  }
+}
+
+.end {
+  justify-content: flex-end;
+  padding: 1rem;
+}
+
+input {
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
