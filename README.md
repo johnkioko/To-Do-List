@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Basic Webpack Setup
+# To-Do list App
 
-> This is a basic webpack setup project demo.
+> This is a To-do list project bundled with webpack.
 
 ## Built With
 
@@ -20,6 +20,11 @@
 \*\* this project runs on any browser
 
 To get a local copy up and running follow these simple example steps.
+
+To fork this project copy the link from github and clone it on your local repository.
+Before running this project , you need to install dependencies libraries, initialize npm by running npm init -y, run npm run build and start your development server with npm start.
+
+once you have done that, you can find editable html, css, and JavaScript files in the src directory.
 
 ### Prerequisites
 
