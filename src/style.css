@@ -82,3 +82,21 @@ input:focus {
 .hide {
   display: none;
 }
+
+.hide {
+  display: none;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+form {
+  width: 100%;
+}
+
+input {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}

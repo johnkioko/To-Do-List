@@ -1,5 +1,6 @@
 /* eslint-disable*/
 import { todosArr, listBox } from "../index.js";
+import clearCompletedTodo from "./clear.js";
 
 export default function displayTodo() {
   let htmlCode = "";
