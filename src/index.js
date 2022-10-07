@@ -4,11 +4,11 @@ import "./style.css";
 
 import displayTodo from "./modules/render.js";
 
-export const listBox = document.getElementById("listBox");
+const listBox = document.getElementById("listBox");
 const form = document.getElementById("todoform");
 const formInput = document.getElementById("text");
 
-export const todosArr = JSON.parse(localStorage.getItem("todo")) || [];
+export let todosArr = JSON.parse(localStorage.getItem("todo")) || [];
 let editToDo = -1;
 
 displayTodo();
