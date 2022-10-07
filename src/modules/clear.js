@@ -1,3 +1,4 @@
+/* eslint-disable*/
 import displayTodo from "./render.js";
 import { todosArr } from "../index.js";
 

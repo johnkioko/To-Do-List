@@ -73,14 +73,13 @@ body {
 
 input {
   border: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 input:focus {
   outline: none;
-}
-
-.hide {
-  display: none;
 }
 
 .hide {
@@ -93,10 +92,4 @@ input:focus {
 
 form {
   width: 100%;
-}
-
-input {
-  width: 100%;
-  margin: 0;
-  padding: 0;
 }
