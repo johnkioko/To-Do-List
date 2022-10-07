@@ -4,7 +4,7 @@ import "./style.css";
 
 import displayTodo from "./modules/render.js";
 
-const listBox = document.getElementById("listBox");
+export const listBox = document.getElementById("listBox");
 const form = document.getElementById("todoform");
 const formInput = document.getElementById("text");
 
