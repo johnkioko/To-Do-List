@@ -26,6 +26,8 @@ Before running this project , you need to install dependencies libraries, initia
 
 once you have done that, you can find editable html, css, and JavaScript files in the src directory.
 
+NB: To edit a to do item, click on its name and its value will appear on the input field from where you can edit. when done with editing click enter to save.
+
 ### Prerequisites
 
 Any browser

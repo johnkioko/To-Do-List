@@ -7,7 +7,7 @@ body {
   margin-top: 5%;
   width: 60%;
   border: 0.5px solid gray;
-  box-shadow: 5px 5px 5px grey;
+  box-shadow: 1px 4px grey;
   background-color: #fff;
 }
 
@@ -16,19 +16,9 @@ body {
   padding: 1rem 0;
 }
 
-.border {
+.list-items {
   border-bottom: grey solid 1px;
   padding: 1rem 0;
-}
-
-.border:last-child {
-  border-bottom: none;
-}
-
-button {
-  width: 100%;
-  text-align: center;
-  padding: 1rem;
 }
 
 .list-items,
@@ -36,6 +26,29 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  text-align: left;
+}
+
+.list-items:last-child {
+  border-bottom: none;
+}
+
+#flex-start {
+  margin-left: 1rem;
+}
+
+.delete-btn {
+  margin-right: 1rem;
+}
+
+.clear {
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+}
+
+.list-items p {
+  text-align: left;
 }
 
 .flex > * {
@@ -45,10 +58,6 @@ button {
 .start {
   justify-content: flex-start;
   padding: 1rem;
-}
-
-.list-items p {
-  margin-left: -70%;
 }
 
 @media screen and (max-width: 600px) {
@@ -68,4 +77,8 @@ input {
 
 input:focus {
   outline: none;
+}
+
+.hide {
+  display: none;
 }
