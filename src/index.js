@@ -3,6 +3,7 @@ import _ from "lodash";
 import "./style.css";
 
 import displayTodo from "./modules/render.js";
+import clearCompletedTodo from "./modules/clear.js";
 
 export const listBox = document.getElementById("listBox");
 const form = document.getElementById("todoform");
@@ -19,6 +20,12 @@ form.addEventListener("submit", (e) => {
   addTodo();
   displayTodo();
   localStorage.setItem("todo", JSON.stringify(todosArr));
+});
+
+document.querySelector(".clear").addEventListener("click", (e) => {
+  e.preventDefault();
+
+  clearCompletedTodo(todosArr);
 });
 
 // Add to do
@@ -53,8 +60,6 @@ function addTodo() {
     formInput.value = "";
   }
 }
-
-// render function
 
 // Listen for a click event on the todos
 listBox.addEventListener("click", (e) => {

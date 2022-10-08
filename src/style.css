@@ -73,6 +73,9 @@ body {
 
 input {
   border: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 input:focus {
@@ -81,4 +84,12 @@ input:focus {
 
 .hide {
   display: none;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+form {
+  width: 100%;
 }
